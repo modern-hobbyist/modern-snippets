@@ -4,9 +4,13 @@ The goal of this project was to create a timelapse of my 3d prints with a much b
 OctoLapse is a very useful plugin for OctoPrint and it has many options that can be configured to work for your purpose. By configuring custom camera profiles to trigger a script, and with the help of FormerLurker (the original OctoLapse Author) I was able to capture timelapses of my 3d prints using my Nikon D80. FormerLurker provided a script to capture the image from your digital camera and download it to the directory OctoLapse needed it, so OctoLapse could render the image, but I wanted to save all of my snapshots on my SD card so I could render the timelapse myself in Premiere Pro. To do this, I updated FormerLurker's script a little bit to save the snapshot to my camera rather than the OctoPi directory. 
 
 [FormerLurker](https://github.com/FormerLurker)
+
 [OctoLapse with DSLR](https://github.com/FormerLurker/Octolapse/wiki/Configuring-an-External-Camera)
+
 [OctoLapse](https://github.com/FormerLurker/Octolapse)
+
 [GPhoto2](http://www.gphoto.org/)
+
 [GPhoto2 Compatible Cameras](http://gphoto.org/proj/libgphoto2/support.php)
 
 # Setup
