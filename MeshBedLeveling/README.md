@@ -41,7 +41,8 @@ G29 S5    # Delete and disable existing mesh
     ```
     G29 S1
     ```
-1. Set the printer to absolute positioning
+1. Set the printer to incremental positioning
+    1. This allows you to adjust the nozzle height incrementally rather than telling the nozzle an absolute height to jump to.
     ```
     G91
     ```
@@ -50,11 +51,11 @@ G29 S5    # Delete and disable existing mesh
     ```
     G1 Z<adjustment incremtent>
     ```
-    1. e.g. Moves the printhead up
+    1. e.g. Moves the printhead up by .01mm
     ```
     G1 Z0.01
     ```
-    1. e.g. Moves the printhead down
+    1. e.g. Moves the printhead down by .01mm
     ```
     G1 Z-0.01
     ```
