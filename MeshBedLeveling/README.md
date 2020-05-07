@@ -7,6 +7,9 @@ will allow you to update a single point on your mesh, so you don't have to do th
 
 [Marlin Documentation](https://marlinfw.org/docs/gcode/G029-mbl.html)
 
+Make sure to check out my video on this topic!
+...
+
 ## Important Commands
 ```
 G29 S0    # Fetch and Display existing mesh table
